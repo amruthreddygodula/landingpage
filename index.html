@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/custom.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Codsoft</h1>
+            <p class="lead">Transforming businesses with innovative software solutions</p>
+        </div>
+    </header>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">CODSOFT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">Codsoft is a leading software company specializing in innovative and cutting-edge technology solutions. With a strong focus on quality and customer satisfaction, Codsoft delivers custom software development, mobile app solutions, and enterprise software services. Our team of skilled professionals is dedicated to transforming your business ideas into reality using the latest technologies and methodologies. At Codsoft, we pride ourselves on our ability to solve complex challenges and drive digital transformation for businesses of all sizes. Partner with us to experience excellence in software development and technology consulting.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Mission</h5>
+                            <p class="card-text">To provide the best services to our customers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Vision</h5>
+                            <p class="card-text">To be a leader in our industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Values</h5>
+                            <p class="card-text">Integrity, Quality, and Innovation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Features</h2>
+            <p class="text-center mb-5">What we offer to our customers.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box position-relative overflow-hidden">
+                        <img src="real.jpg" class="img-fluid" alt="Real-Time Data Analytics">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <i class="icon fas fa-chart-line"></i>
+                            <h3>Real-Time Data Analytics</h3>
+                            <p>Utilize cutting-edge technology to analyze data in real-time, providing instant insights and actionable information to help drive your business decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box position-relative overflow-hidden">
+                        <img src="dash.jpg" class="img-fluid" alt="Customizable Dashboards">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <i class="icon fas fa-tachometer-alt"></i>
+                            <h3>Customizable Dashboards</h3>
+                            <p>Create and customize dashboards tailored to your specific needs, allowing you to visualize key metrics and track performance at a glance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box position-relative overflow-hidden">
+                        <img src="sec.jpeg" class="img-fluid" alt="Advanced Security Protocols">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <i class="icon fas fa-lock"></i>
+                            <h3>Advanced Security Protocols</h3>
+                            <p>Ensure the safety and security of your data with advanced encryption and security protocols, protecting your information from potential threats.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <p class="text-center">Get in touch with us for more information.</p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 CODSOFT. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Custom JS for animations or additional functionality -->
+    <script src="scripts/custom.js"></script>
+</body>
+</html>
